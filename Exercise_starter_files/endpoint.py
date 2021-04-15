@@ -3,28 +3,34 @@ import json
 
 # URL for the web service, should be similar to:
 # 'http://8530a665-66f3-49c8-a953-b82a2d312917.eastus.azurecontainer.io/score'
-scoring_uri = ""
+scoring_uri = "http://6ffdc803-b313-4c1a-99b8-6535e32e2a94.southcentralus.azurecontainer.io/score"
 
 # If the service is authenticated, set the key or token
-key = ""
+key = "2objrTiXdmEh4oyGnGY1sqbgM7znaOOQ"
 
 # Two sets of data to score, so we get two results back
 data = {
     "data": [
         {
-            "instant": 1,
-            "date": "2013-01-01 00:00:00,000000",
-            "season": 1,
-            "yr": 0,
-            "mnth": 1,
-            "weekday": 6,
-            "weathersit": 2,
-            "temp": 0.344167,
-            "atemp": 0.363625,
-            "hum": 0.805833,
-            "windspeed": 0.160446,
-            "casual": 331,
-            "registered": 654,
+            "job": "example_value",
+            "marital": "example_value",
+            "education": "example_value",
+            "default": "example_value",
+            "housing": "example_value",
+            "loan": "example_value",
+            "contact": "example_value",
+            "month": "example_value",
+            "day_of_week": "example_value",
+            "duration": 0,
+            "campaign": 0,
+            "pdays": 0,
+            "previous": 0,
+            "poutcome": "example_value",
+            "emp.var.rate": 0,
+            "cons.price.idx": 0,
+            "cons.conf.idx": 0,
+            "euribor3m": 0,
+            "nr.employed": 0
         },
     ]
 }

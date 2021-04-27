@@ -12,6 +12,7 @@ key = "c8Iocn3zGel5UFvbHO1QPqe12P3r0EXX"
 data = {
     "data": [
         {
+            "age": 0,
             "job": "example_value",
             "marital": "example_value",
             "education": "example_value",
